@@ -27,7 +27,11 @@ The stacking ensemble model achieved an overall accuracy of 96.55%, with high pr
 The model shows particularly strong performance in identifying class 1 with a precision of 0.99 and an F1-score of 0.98, demonstrating its effectiveness in distinguishing between different types of splice junctions.
 
 ## Files in the Repository
-- `dna_splice_classifier.py`: The main Python script containing the entire pipeline from data preprocessing to model evaluation.
+
+- `dna_splice_classifier.py`: This Python script contains the complete pipeline for data preprocessing, training the stacking ensemble model, and evaluating its performance.
+
+- `DNA_Splice_Junction_Classification.ipynb`: A Jupyter Notebook that provides a detailed walkthrough of the project, including data preprocessing, model training, evaluation, and insights with visualizations. It's designed for an interactive exploration of the methodology and results.
+
 
 ## Dependencies
 - Pandas
