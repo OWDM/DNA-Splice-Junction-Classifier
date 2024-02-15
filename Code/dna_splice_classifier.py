@@ -9,10 +9,10 @@ from sklearn.metrics import accuracy_score, classification_report
 data = pd.read_csv('/kaggle/input/splicejunction-gene-sequences-dataset/dna.csv')
 
 # Data exploration and preprocessing
-print(data.head())
-print(data.describe())
-missing_values = data.isnull().sum()
-print("Missing values in each column:\n", missing_values)
+#print(data.head())
+#print(data.describe())
+#missing_values = data.isnull().sum()
+#print("Missing values in each column:\n", missing_values)
 
 # Adjust class labels to start from 0
 data['class'] = data['class'] - 1
